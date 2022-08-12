@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href = "style.css">
+        <title>Learn to Spell with Animals</title>
+        
+</head>
+
+<body>
+        <img class = "img-banner" src = "https://sdhc.instructure.com/courses/90363/files/9569855/preview?verifier=r6V9urEBQHWQptc2qrWgnFVjPQzwLB930ExLFNkP" alt = "spelling banner">
+        <div class = "instructions">
+                <h2>Try to spell the animals below!</h2>
+        </div>
+        
+        <div class = "wrapper">
+                        <!-- Cat -->
+                        <img src = "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?cs=srgb&dl=pexels-pixabay-45201.jpg&fm=jpg" alt = "cat" class="img-animal">
+                        <form> 
+                                <div>
+                                        <input type = "text" name = "cat_input" id = "cat_input">
+                                        <button type = "button" onclick="checkAnswers('cat')">check</button>
+                                </div>  
+                        </form>
+                        <p id = "cat_answer"></p>
+        </div>
+        <div class = "wrapper">
+                <!-- Dog -->
+                <img
+                src = "https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/322868_1100-800x825.jpg" alt = "dog" class="img-animal">
+                <form > 
+                        <div>
+                                <input type = "text" name = "dog_input" id = "dog_input">
+                                <button type = "button" onclick="checkAnswers('dog')">check</button>
+                        </div>
+                </form>
+                <p id = "dog_answer"></p>
+        </div>
+        <div class = "wrapper">
+                <!-- Elephant -->
+                <img
+                src = "https://cdn.britannica.com/02/152302-050-1A984FCB/African-savanna-elephant.jpg" alt = "elephant" class="img-animal">
+                <form > 
+                        <div>
+                                <input type = "text" name = "elephant_input" id = "elephant_input">
+                                <button type = "button" onclick="checkAnswers('elephant')">check</button>
+                        </div>
+                </form>
+                <p id = "elephant_answer"></p>
+                
+        </div>
+
+
+        <script src = "index.js"></script>
+</body>
+        <footer>
+                <p>Author: Brandon Lei
+                <a href = "brandonlei135@gmail.com">brandonlei135@gmail.com</a></p>
+        </footer>
+</html>
